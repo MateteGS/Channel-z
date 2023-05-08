@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body {
+    background-image: url(https://bytegrad.com/course-assets/youtube/bg.png);
+    background-size: 100%;
+    
+    object-fit: cover;
+    height: 100vh;
+}
+
+#container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header{
+    z-index: 1;
+}
